@@ -5,7 +5,7 @@ The original Mastermind game with a slight variation.
 
 ## Problem Statement
 
-In this code, we will implement the classic [Mastermind](https://twitter.com/) game.
+In this code, we will implement the classic [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) game.
 We are going to play it with a slight variation, using numbers instead of colors. Thus each guess will be a 4 digit number, and the key (the number being decoded) will be a 4 digit number. We will also stipulate that no number will repeat in the key. Thus 1234 is a legal key but 1123 is not legal and should not be used in this game.
 
 In our game, you provide the key to be guessed at the start of the program, and then the program allows a player to try and guess the entered key. The program does not generate a random key so you can more easily test your program. Your program does not try to play mastermind, it simply enforces the rules and provides feedback to the player.
