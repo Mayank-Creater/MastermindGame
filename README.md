@@ -49,12 +49,12 @@ Enter guess: 4321
 
 Enter guess: 5678
 4321 : exist: 4, position: 0
-5678 : exist: 4, position: 0
+5678 : exist: 0, position: 0
 
 Enter guess: 1243
 4321 : exist: 4, position: 0
-5678 : exist: 4, position: 0
-1243 : exist: 4, position: 0
+5678 : exist: 0, position: 0
+1243 : exist: 2, position: 2
 
 Enter guess: 123
 Guess must be of 4 digits!
@@ -70,9 +70,9 @@ Guess must not have duplicate digits!
 
 Enter guess: 1234
 4321 : exist: 4, position: 0
-5678 : exist: 4, position: 0
-1243 : exist: 4, position: 0
-1234 : exist: 4, position: 0
+5678 : exist: 0, position: 0
+1243 : exist: 2, position: 2
+1234 : exist: 0, position: 4
 You guessed it right!
 You did it in 4 guesses.
 ```
